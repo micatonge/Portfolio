@@ -1,10 +1,10 @@
 import React from 'react';
-
+import Header from "./header";
 const Projects = () => {
     return (
-        <div>
-            <h1>Projects</h1>
-        </div>
+        <Header></Header>
+        
+
     );
 };
 

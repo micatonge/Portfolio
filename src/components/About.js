@@ -1,10 +1,9 @@
 import React from 'react';
-
+import Header from "./header";
 const About = () => {
     return (
-        <div>
-            <h1>ABOUT</h1>
-        </div>
+        <Header></Header>
+
     );
 };
 

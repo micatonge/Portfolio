@@ -12,8 +12,55 @@ code {
     monospace;
 }
 
+@keyframes type{ 
+  from { width: 0; } 
+} 
+
+@keyframes rotatee {
+  from{transform:rotateY(0deg)}
+
+    to {transform:rotateY(360deg)}
+  
+}
+
+/* .toto > span {
+    animation: rotatee 3s linear infinite;
+  display:inline-block;
+}
+
+#fadeout {
+  opacity: 1;
+  transition: 1s opacity;
+  text-align: center;
+  font-size:32px;
+} */
+
 @font-face {
   font-family: "Gallient";
   src: url(./fonts/Gallient.ttf);
 }
+
+@font-face {
+  font-family: "Palanquin";
+  src: url(./fonts/Palanquin-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url(./fonts/Montserrat-Light.ttf);
+}
+@font-face {
+  font-family: "Montserrat R";
+  src: url(./fonts/Montserrat-Regular.ttf);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+#logo{ 
+	position: 'absolute';
+  top: 0;
+	left:10; 
+} 
 

@@ -1,10 +1,9 @@
 import React from 'react';
-
+import Header from "./header";
 const Resume = () => {
     return (
-        <div>
-            <h1>Resume</h1>
-        </div>
+        <Header></Header>
+
     );
 };
 
