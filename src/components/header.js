@@ -26,7 +26,7 @@ const useStyles = makeStyles((theme) => ({
       // marginTop: -40,
       // backgroundColor: "transparent",
       top: 0,
-      left: 20,
+      left: 0,
       right: 0,
       zIndex: 1000, /* Adjust the z-index as needed */
     },
