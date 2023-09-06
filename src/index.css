@@ -36,11 +36,6 @@ code {
 } */
 
 @font-face {
-  font-family: "Gallient";
-  src: url(./fonts/Gallient.ttf);
-}
-
-@font-face {
   font-family: "Palanquin";
   src: url(./fonts/Palanquin-Regular.ttf);
 }
