@@ -12,28 +12,6 @@ code {
     monospace;
 }
 
-@keyframes type{ 
-  from { width: 0; } 
-} 
-
-@keyframes rotatee {
-  from{transform:rotateY(0deg)}
-
-    to {transform:rotateY(360deg)}
-  
-}
-
-/* .toto > span {
-    animation: rotatee 3s linear infinite;
-  display:inline-block;
-}
-
-#fadeout {
-  opacity: 1;
-  transition: 1s opacity;
-  text-align: center;
-  font-size:32px;
-} */
 
 @font-face {
   font-family: "Palanquin";
@@ -51,14 +29,6 @@ code {
 
 html {
   scroll-behavior: smooth;
-}
-
-#header {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 1000; /* Adjust the z-index as needed */
 }
 
 #logo{ 
