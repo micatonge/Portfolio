@@ -97,9 +97,15 @@ const useStyles = makeStyles((theme) => ({
 
     /* Add more styling as needed */
   },
-  listContainer: {
-    marginTop: -50, // Adjust this value as needed
+  hireme: {
+    marginLeft: 115, // Adjust this value as needed
   },
+  listContainer: {
+    marginTop: 50, // Adjust this value as needed
+  },
+  // content:{
+  //   paddingTop: 50,
+  // },
 }));
 
 const Homepage = () => {
@@ -107,10 +113,7 @@ const Homepage = () => {
   
   const ColorButton = styled(Button)(({ theme }) => ({
     color: theme.palette.getContrastText(green[700]),
-    marginTop: 30,
-    marginLeft: 120,
     fontFamily: 'Roboto',
-
     backgroundColor: green[700],
     '&:hover': {
       backgroundColor: green[800],
@@ -132,13 +135,12 @@ const Homepage = () => {
             <Typography  className={classes.top} variant="h6">Brooklyn-based Software Engineer passionate about the blend of Computer Science and Design. ✻</Typography>
         <Listt></Listt>
             {/* <Typography id="fadeout" className={classes.comment} variant="h1"> you can find me coding . . .</Typography> */}
-            <Stack direction="row" spacing={2}>
+            <Stack direction="row" spacing={2} className={classes.hireme}>
       <ColorButton variant="contained" endIcon={<SendIcon />}>Hire me</ColorButton>
 
     </Stack>
-    < breadc />
     <img src={ok} alt="Your SVG" className={classes.svgImage} />
-
+``
         </Grid>
 
         {/* <Grid item xs={2} md={3} className={classes.interactiveArt}>

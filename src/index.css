@@ -53,6 +53,14 @@ html {
   scroll-behavior: smooth;
 }
 
+#header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000; /* Adjust the z-index as needed */
+}
+
 #logo{ 
 	position: 'absolute';
   top: 0;

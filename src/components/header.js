@@ -19,8 +19,16 @@ const useStyles = makeStyles((theme) => ({
       boxShadow: "none",
       fontFamily: 'Montserrat',
       fontSize: 150,
+      height: '60px',
+      // left: 20,
+      // marginTop: -30,
+      position: "fixed",
+      // marginTop: -40,
+      // backgroundColor: "transparent",
+      top: 0,
       left: 20,
-      marginTop: -30,
+      right: 0,
+      zIndex: 1000, /* Adjust the z-index as needed */
     },
     links:{
       fontSize: 14,
@@ -57,7 +65,7 @@ const Header = () => {
     };
 
     return (
-        <AppBar position="static" className={classes.appBar}>
+        <AppBar position="static" className={classes.appBar} id="header">
         <Toolbar>
           <Button component={Link} to="/"> <img src={mt} alt="Logo" className={classes.logoButton} /></Button>
           <ScrollLink
