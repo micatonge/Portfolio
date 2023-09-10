@@ -31,6 +31,7 @@ const useStyles = makeStyles((theme) => ({
       },
       pt2: {
         marginTop: 15,
+        paddingBottom: 10,
 
       },
       p: {

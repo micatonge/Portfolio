@@ -147,6 +147,8 @@ const Homepage = () => {
         <img src={flower} alt="logo" />
         </Grid> */}
       </Grid>
+    {/* <breadc/>*/} 
+  
     </div>
     </div>
   );
