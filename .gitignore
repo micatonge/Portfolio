@@ -1,0 +1,4 @@
+node_modules/.cache/default-development/
+/node_modules
+# eslint cache
+.eslintcache
